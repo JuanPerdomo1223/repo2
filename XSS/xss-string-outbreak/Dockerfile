@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.0-apache
+FROM php:8.5.0RC2-apache
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2
